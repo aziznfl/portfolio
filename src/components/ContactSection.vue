@@ -51,9 +51,9 @@
 <script setup lang="ts">
 const email = 'aziznurfalah@gmail.com';
 const socials = [
-  { key: 'linkedin', href: 'https://www.linkedin.com/', label: 'LinkedIn', short: 'in' },
-  { key: 'github', href: 'https://github.com/', label: 'GitHub', short: 'gh' },
-  { key: 'twitter', href: 'https://twitter.com/', label: 'Twitter', short: 'tw' }
+  { key: 'linkedin', href: 'https://www.linkedin.com/in/aziz-nurfalah-9331a5114', label: 'LinkedIn', short: 'in' },
+  { key: 'github', href: 'https://github.com/aziznfl', label: 'GitHub', short: 'gh' },
+  { key: 'twitter', href: 'https://twitter.com/aziznfl', label: 'Twitter', short: 'tw' }
 ];
 </script>
 

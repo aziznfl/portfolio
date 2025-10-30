@@ -10,7 +10,7 @@
           <h2 class="text-xl font-semibold mb-2">About Me</h2>
           <div class="w-12 h-1 bg-[var(--accent)] rounded mx-auto mb-4"></div>
           <p class="text-[var(--text-600)] mb-4">
-            Passionate Flutter and iOS engineer focused on building seamless, user-centered mobile experiences. Always eager to learn, improve, and deliver meaningful impact through code.
+            Passionate iOS and Flutter engineer focused on building seamless, user-centered mobile experiences. Always eager to learn, improve, and deliver meaningful impact through code.
           </p>
 
           <div class="flex justify-center flex-wrap gap-2">
