@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+
+:root{
+  --accent: #7a3df0;
+  --text-900: #0f1720;
+  --text-800: #172030;
+  --text-700: #334155;
+  --text-600: #6b7280;
+  --text-500: #9aa3ad;
+  --bg: #ffffff;
+}
+*{box-sizing:border-box}
+html,body,#app{height:100%}
+body{
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin:0; color:var(--text-800); background:var(--bg);
+  -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+}
+.container{ max-width:1100px; margin:0 auto; padding:0 1rem; width:100% }
+
+/* small utility */
+h1,h2,h3{ margin:0 }
+a{ color:inherit }
