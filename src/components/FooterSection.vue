@@ -3,11 +3,6 @@
     <div class="container max-w-[1100px] mx-auto px-4">
       <div class="grid grid-cols-1 md:grid-cols-[1fr_200px_160px] gap-6 items-start">
         <div>
-          <div class="brand text-lg font-bold text-[var(--text-800)]">Portfolio</div>
-          <div class="tag text-[var(--text-500)] mt-2">Creating meaningful digital experiences</div>
-        </div>
-
-        <div>
           <div class="col-title font-semibold mb-2">Quick Links</div>
           <nav class="quick-links flex flex-col gap-2" aria-label="Footer quick links">
             <a href="#home" @click.prevent="go('#home')" class="text-[var(--text-700)]">Home</a>

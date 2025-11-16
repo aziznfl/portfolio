@@ -7,7 +7,7 @@
       <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         <article
           v-for="project in projects"
-          :key="project.id"
+          :key="project.title"
           class="card bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transform transition-transform hover:-translate-y-2"
         >
           <div class="card-media h-44 bg-gradient-to-b from-[#f0f0f2] to-[#f7f7f8] border-b border-[rgba(16,24,40,0.03)]"></div>
@@ -26,9 +26,24 @@
 import { ref } from 'vue';
 
 const projects = ref([
-  { id: 1, title: 'AI Art Generator Bot', description: 'A bot that generates art pieces based on user-defined keywords using neural networks and style transfer techniques.', link: '#' },
-  { id: 2, title: 'Interactive Web Experience', description: 'A browser-based project that allows users to navigate through a virtual gallery with responsive elements adapting to user interactions.', link: '#' },
-  { id: 3, title: 'Design System', description: 'A reusable component library and guidelines to build consistent, accessible interfaces across products.', link: '#' }
+  {
+    title: 'ework by eDOT',
+    description: 'App for salesman field activity monitoring, order management, and reporting.',
+    technologies: ['Swift', 'SwiftUI', 'Firebase', 'Combine', 'Alamofire', 'Codemagic', 'XCTest'],
+    link: 'https://apps.apple.com/us/app/ework-sfa/id6748628218'
+  },
+  {
+    title: 'Planorama',
+    description: 'App for planning and organizing your travel itineraries with ease.',
+    technologies: ['Flutter', 'Dart', 'Provider', 'Riverpod', 'E2ETest'],
+    link: 'https://play.google.com/apps/testing/com.aziznfl.planorama_apps'
+  },
+  {
+    title: 'Kingkong Meats',
+    description: 'E-commerce app for ordering fresh meat products with delivery service.',
+    technologies: ['Flutter', 'Dart', 'Firebase', 'Provider', 'Sentry', 'Xendit', 'Google Maps', 'Braze Notifications', 'E2ETest'],
+    link: 'https://apkpure.com/id/kingkong-meats/com.kingkong.android'
+  },
 ]);
 </script>
 
